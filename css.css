@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    background-color: #89a09a;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div img{
+    width: 100px;
+    height: auto;
+}
+
+.section-1{
+    background-image: url(img/menu.jpg);
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 button{
+    height: 150px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.452);
+    border-radius: 12px;
+}
+
+.section-2{
+    padding: 250px;
+    background-color: #6f737e;
+
+    display: flex;
+    justify-content: space-evenly;
+}
