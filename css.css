@@ -1,129 +1,208 @@
 /*usamos o(*) para informar que existem itens irão recair sobre todo o html*/
-*{
-    margin: 0;/*zerando a margin top bottom ring left*/
-    padding: 0;/*zerando o preenchimento*/
-    list-style: none;/*remove os estilos de lista*/
+* {
+    margin: 0;
+    /*zerando a margin top bottom ring left*/
+    padding: 0;
+    /*zerando o preenchimento*/
+    list-style: none;
+    /*remove os estilos de lista*/
 }
+
 /*aqui foi feita a o cabaçario da pagina*/
-header{
-    background-color: #89a09a;/*cor de fundo do cabeçario*/
-    padding: 15px;/*aqui da um espaço do cabeçalho para os assunto abaixo da pagina*/
-    display: flex;/*tornando nosso header flex deixando os itens lado a lado*/
-    justify-content: space-evenly;/*justificativa do conteudo aqui podemos ajustar conforme nossa necessidade*/
-    align-items: center;/*alinhamento na vertical,deixando habiliatada ao centro*/
-   
+header {
+    background-color: #89a09a;
+    /*cor de fundo do cabeçario*/
+    padding: 15px;
+    /*aqui da um espaço do cabeçalho para os assunto abaixo da pagina*/
+    display: flex;
+    /*tornando nosso header flex deixando os itens lado a lado*/
+    justify-content: space-evenly;
+    /*justificativa do conteudo aqui podemos ajustar conforme nossa necessidade*/
+    align-items: center;
+    /*alinhamento na vertical,deixando habiliatada ao centro*/
+
 }
+
 /*aqui chamamos nossa logo img para estilização*/
-header div img{
-    width: 100px;/*largura da imagem*/
-    height: auto;/*altura da imagem*/
+header div img {
+    width: 100px;
+    /*largura da imagem*/
+    height: auto;
+    /*altura da imagem*/
 }
 
-header nav ul{
-    display: flex;/*tornando nosso header flex deixando os itens lado a lado*/
+header nav ul {
+    display: flex;
+    /*tornando nosso header flex deixando os itens lado a lado*/
 }
+
 /*aqui chamamos nossa lista não ordenada para estilização*/
-header nav ul li{
-    list-style: none;/*estilo da linha*/
-    margin-right: 10px;/*espaça,mento entre as li*/
+header nav ul li {
+    list-style: none;
+    /*estilo da linha*/
+    margin-right: 10px;
+    /*espaça,mento entre as li*/
 }
+
 /*aqui chamamos nossa ancora para estilização*/
-header nav ul li a{
-    text-decoration: none;/*decoração da ancora (subinhado) desabilitado*/
-    color: black;/*cor da letra*/
+header nav ul li a {
+    text-decoration: none;
+    /*decoração da ancora (subinhado) desabilitado*/
+    color: black;
+    /*cor da letra*/
 }
+
 /*primeira sessão para estilização*/
-.section-1{
-    background-image: url(img/menu.jpg);/*usado para habilitar uma imagen no fundo*/
-    padding: 250px;/*aqui da um espaço do cabeçalho para os assunto abaixo da pagina*/
-    background-repeat: no-repeat;/*para a imagem não se repetir dentro da sessção*/
-    background-size:cover;/*utilizada para que a imagem preencha todo espaço disponivel*/
-    background-position: top;/*posicionamento da imagen*/
-    
-    display: flex;/*tornando a nessão flex*/
-    justify-content: center;/*justificativa do conteudo aqui podemos ajustar conforme nossa necessidade*/
-    align-items: center;/*alinhando os itens ao centro*/
+.section-1 {
+    background-image: url(img/menu.jpg);
+    /*usado para habilitar uma imagen no fundo*/
+    padding: 250px;
+    /*aqui da um espaço do cabeçalho para os assunto abaixo da pagina*/
+    background-repeat: no-repeat;
+    /*para a imagem não se repetir dentro da sessção*/
+    background-size: cover;
+    /*utilizada para que a imagem preencha todo espaço disponivel*/
+    background-position: top;
+    /*posicionamento da imagen*/
+
+    display: flex;
+    /*tornando a nessão flex*/
+    justify-content: center;
+    /*justificativa do conteudo aqui podemos ajustar conforme nossa necessidade*/
+    align-items: center;
+    /*alinhando os itens ao centro*/
 }
 
-.section-1 button{
-    height: 150px;/*largura do botão*/
-    height: 40px;/*altura do botão*/
-    background-color: rgba(255, 255, 255, 0.452);/*cor de fundo*/
-    border-radius: 12px;/*arredondamento da borda*/
+.section-1 button {
+    height: 150px;
+    /*largura do botão*/
+    height: 40px;
+    /*altura do botão*/
+    background-color: rgba(255, 255, 255, 0.452);
+    /*cor de fundo*/
+    border-radius: 12px;
+    /*arredondamento da borda*/
 }
+
 /* chamamos nossa segunda sessão para estilização*/
-.section-2{
-    padding: 250px;/* prenchimento/tamanho da sessão */
-    background-color: #6f737e;/* cor de fundo da sessão*/
+.section-2 {
+    padding: 250px;
+    /* prenchimento/tamanho da sessão */
+    background-color: #6f737e;
+    /* cor de fundo da sessão*/
 
-    display: flex;/* tonando a sessão flex e deixandp os itens lado a lado*/
-    justify-content: space-evenly;/* justificação do conteúdo - usando o space - evenly como parânetro*/
-    align-items: center;/* alinhamento dos itens na vertical - trazendo para o centro */
+    display: flex;
+    /* tonando a sessão flex e deixandp os itens lado a lado*/
+    justify-content: space-evenly;
+    /* justificação do conteúdo - usando o space - evenly como parânetro*/
+    align-items: center;
+    /* alinhamento dos itens na vertical - trazendo para o centro */
 }
 
-.section-2 img{
-    width: 300px;/*largura da imagem*/
-    height:auto ;/*altura da imagem*/
+.section-2 img {
+    width: 300px;
+    /*largura da imagem*/
+    height: auto;
+    /*altura da imagem*/
 
 }
 
-.section-2 h2{
-    color: black;/* cor de fundo da sessão*/
-    font-size: 20px;/*tamanho da letra */
-    margin-top: 15px;/*deixa um espaço no topo */
-    margin-right: 15px;/*deixa um espaço na direita */
+.section-2 h2 {
+    color: black;
+    /* cor de fundo da sessão*/
+    font-size: 20px;
+    /*tamanho da letra */
+    margin-top: 15px;
+    /*deixa um espaço no topo */
+    margin-right: 15px;
+    /*deixa um espaço na direita */
 }
-.section-2 p{
-    color:black;/* cor de fundo da sessão*/
-    font-size: 17px;/*tamanho da letra */
-    margin-top: 15px;/*deixa um espaço no topo */
-    margin-right: 15px;/*deixa um espaço na direita */
+
+.section-2 p {
+    color: black;
+    /* cor de fundo da sessão*/
+    font-size: 17px;
+    /*tamanho da letra */
+    margin-top: 15px;
+    /*deixa um espaço no topo */
+    margin-right: 15px;
+    /*deixa um espaço na direita */
 }
+
 /* aqui chamamaos nossa terceira e última sessão para estilização */
-.section-3{
-    background-image: url(img/street-fighter-6-intro-800x450.jpg) ;/* habilitamos uma imagen de fundo para  a sessão*/
-    padding: 250px;/* tamanho preenchimento da sessão*/ 
-    background-repeat: no-repeat; /*para a imagem não se repetir dentro da sessção*/
-    background-size: cover;/*utilizada para que a imagem preencha todo espaço disponivel*/
-    background-position: center;/*posicionamento da imagen*/
-    background-attachment: fixed;/* posição em que a imagen será apresentada */
+.section-3 {
+    background-image: url(img/street-fighter-6-intro-800x450.jpg);
+    /* habilitamos uma imagen de fundo para  a sessão*/
+    padding: 250px;
+    /* tamanho preenchimento da sessão*/
+    background-repeat: no-repeat;
+    /*para a imagem não se repetir dentro da sessção*/
+    background-size: cover;
+    /*utilizada para que a imagem preencha todo espaço disponivel*/
+    background-position: center;
+    /*posicionamento da imagen*/
+    background-attachment: fixed;
+    /* posição em que a imagen será apresentada */
 }
 
-.section-3 h2{
-    color: black;/* cor da letra*/
-    font-size: 25px;/*tamanho da letra */
-    margin-top: 15px;/*deixa um espaço no topo */
-    margin-right: 15px;/*deixa um espaço na direita */
-}
-.section-3 p{
-    color:black;/* cor da letra*/
-    font-size: 18px;/*tamanho da letra */
-    margin-top: 15px;/*deixa um espaço no topo */
-    margin-right: 15px;/*deixa um espaço na direita */
-    font-weight: 900;/*espeçura da letra*/
+.section-3 h2 {
+    color: black;
+    /* cor da letra*/
+    font-size: 25px;
+    /*tamanho da letra */
+    margin-top: 15px;
+    /*deixa um espaço no topo */
+    margin-right: 15px;
+    /*deixa um espaço na direita */
 }
 
-footer{
-    padding: 20px;/* tamanho preenchimento da sessão*/
-    background-color:#c1c0ae;/* cor de fundo da sessão*/
+.section-3 p {
+    color: black;
+    /* cor da letra*/
+    font-size: 18px;
+    /*tamanho da letra */
+    margin-top: 15px;
+    /*deixa um espaço no topo */
+    margin-right: 15px;
+    /*deixa um espaço na direita */
+    font-weight: 900;
+    /*espeçura da letra*/
 }
+
+footer {
+    padding: 20px;
+    /* tamanho preenchimento da sessão*/
+    background-color: #c1c0ae;
+    /* cor de fundo da sessão*/
+}
+
 /* trazndo nossa lista não ordenada para estilização*/
-footer nav ul{
-    display: flex; /* justificativa*/
-    justify-content: center;/* justificação do conteúdo - usando o space - evenly como parânetro*/
-    align-items: center;/* alinhamento dos itens na vertical - trazendo para o centro */
-   
+footer nav ul {
+    display: flex;
+    /* justificativa*/
+    justify-content: center;
+    /* justificação do conteúdo - usando o space - evenly como parânetro*/
+    align-items: center;
+    /* alinhamento dos itens na vertical - trazendo para o centro */
+
 }
 
-footer nav ul li{
-    list-style: none;/*estilo da linha*/
-    margin-right: 10px;/* atribuimos um espaçamento entre as listas, para que tenhamos uma melhor visualização*/
+footer nav ul li {
+    list-style: none;
+    /*estilo da linha*/
+    margin-right: 10px;
+    /* atribuimos um espaçamento entre as listas, para que tenhamos uma melhor visualização*/
 }
+
 /* aqui estamos trabalhando dentro da âncora*/
-footer nav ul li a{
-    text-decoration: none;/*decoração da ancora (subinhado) desabilitado*/
-    color: black;/* cor da letra*/
-     margin-top: 15px;/*deixa um espaço no topo */
-    margin-right: 15px;/* atribuimos um espaçamento entre as listas, para que tenhamos uma melhor visualização*/
+footer nav ul li a {
+    text-decoration: none;
+    /*decoração da ancora (subinhado) desabilitado*/
+    color: black;
+    /* cor da letra*/
+    margin-top: 15px;
+    /*deixa um espaço no topo */
+    margin-right: 15px;
+    /* atribuimos um espaçamento entre as listas, para que tenhamos uma melhor visualização*/
 
 }
