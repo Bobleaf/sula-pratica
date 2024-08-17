@@ -42,7 +42,12 @@ header nav ul li {
     /*estilo da linha*/
     margin-right: 10px;
     /*espaça,mento entre as li*/
+    /*background-color: darkolivegreen;
+    transition: 3s;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;*/
 }
+
 
 /*aqui chamamos nossa ancora para estilização*/
 header nav ul li a {
@@ -50,6 +55,15 @@ header nav ul li a {
     /*decoração da ancora (subinhado) desabilitado*/
     color: black;
     /*cor da letra*/
+
+
+}
+
+header nav ul li a:hover {
+    transition: 0.8s;
+    color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /*primeira sessão para estilização*/
@@ -84,6 +98,15 @@ header nav ul li a {
     /*arredondamento da borda*/
 }
 
+
+.section-1 button:hover {
+    background-color: rgb(26, 25, 25); /*cor de fundo*/
+    transition: 3s; /*a tranzição para mudar a cor*/
+    color: white;/*cor*/
+    font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
+    cursor:pointer ;/*para deixar o mause com formato de mão*/
+}
+
 /* chamamos nossa segunda sessão para estilização*/
 .section-2 {
     padding: 250px;
@@ -102,9 +125,15 @@ header nav ul li a {
 .section-2 img {
     width: 300px;
     /*largura da imagem*/
-    height: auto;
+    height: auto;/*a tranzição para mudar a cor*/
     /*altura da imagem*/
 
+}
+
+.section-2 img:hover {
+    width: 310px;/*largura da imagem*/
+    transition: 0.8s;
+    cursor: pointer;/*para deixar o mause com formato de mão*/
 }
 
 .section-2 h2 {
@@ -124,8 +153,6 @@ header nav ul li a {
     font-size: 17px;
     /*tamanho da letra */
     margin-top: 15px;
-    /*deixa um espaço no topo */
-    margin-right: 15px;
     /*deixa um espaço na direita */
 }
 
@@ -146,7 +173,7 @@ header nav ul li a {
 }
 
 .section-3 h2 {
-    color: black;
+    color: white;
     /* cor da letra*/
     font-size: 25px;
     /*tamanho da letra */
@@ -157,7 +184,7 @@ header nav ul li a {
 }
 
 .section-3 p {
-    color: black;
+    color: white;
     /* cor da letra*/
     font-size: 18px;
     /*tamanho da letra */
@@ -205,4 +232,10 @@ footer nav ul li a {
     margin-right: 15px;
     /* atribuimos um espaçamento entre as listas, para que tenhamos uma melhor visualização*/
 
+}
+
+footer nav ul li a:hover {
+    color: darkslategray;/*cor*/
+    transition: 0.8s;/*uma transição*/
+    font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
 }
