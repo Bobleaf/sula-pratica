@@ -51,8 +51,7 @@ header nav ul li {
 
 /*aqui chamamos nossa ancora para estilização*/
 header nav ul li a {
-    text-decoration: none;
-    /*decoração da ancora (subinhado) desabilitado*/
+    text-decoration: none; /*decoração da ancora (subinhado) desabilitado*/
     color: black;
     /*cor da letra*/
 
@@ -60,9 +59,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    transition: 0.8s;
-    color: darkolivegreen;
-    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.8s;/*tempo da tranzição*/
+    color: darkolivegreen;/*cor da letra*/
+    font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
 
 }
 
@@ -100,8 +99,8 @@ header nav ul li a:hover {
 
 
 .section-1 button:hover {
-    background-color: rgb(26, 25, 25); /*cor de fundo*/
-    transition: 3s; /*a tranzição para mudar a cor*/
+    background-color:rgba(90, 89, 89, 0.205); /*cor de fundo*/
+    transition: 0.8s; /*a tranzição para mudar a cor*/
     color: white;/*cor*/
     font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
     cursor:pointer ;/*para deixar o mause com formato de mão*/
@@ -238,4 +237,18 @@ footer nav ul li a:hover {
     color: darkslategray;/*cor*/
     transition: 0.8s;/*uma transição*/
     font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
+}
+
+
+header i{
+    color: white;
+    font-size: 40px;
+    background-color: #6f737e;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+header i:hover{
+    background-color: #c1c0ae;
+    transition: 0.7s;
 }
