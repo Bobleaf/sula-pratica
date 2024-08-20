@@ -240,15 +240,41 @@ footer nav ul li a:hover {
 }
 
 
-header i{
-    color: white;
-    font-size: 40px;
-    background-color: #6f737e;
-    padding: 15px;
-    border-radius: 10px;
+header i{/*estilizando icone*/
+    color: white;/*cores do icone*/
+    font-size: 40px;/*tamanho do icone*/
+    background-color: #6f737e;/*cor de fundo do elemento*/
+    padding: 15px;/*respiro/preenchimento da cor de fundo*/
+    border-radius: 10px;/*arredondamento da caixa*/
 }
 
-header i:hover{
+header i:hover{/*aplicando o efeito ao passar o mouse*/
+    background-color: #c1c0ae;/*cor de fundo alterada*/
+    transition: 0.7s;/*transição do elemento*/
+}
+
+.section-tela1{/*estilização tela 2*/
+background-image:url(img/game-over-6771162_640.jpg);
+padding: 250px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.section-tela1 p{
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-tela1 span{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-tela2{
+    background-color:  #89a09a;
+    padding: 240px;
+}
+.section-tela3{
+    padding: 240px;
     background-color: #c1c0ae;
-    transition: 0.7s;
 }
