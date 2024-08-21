@@ -93,8 +93,8 @@ header nav ul li a:hover {
     /*altura do botão*/
     background-color: rgba(255, 255, 255, 0.452);
     /*cor de fundo*/
-    border-radius: 12px;
-    /*arredondamento da borda*/
+    border-radius: 12px; /*arredondamento da borda*/
+
 }
 
 
@@ -240,7 +240,7 @@ footer nav ul li a:hover {
 }
 
 
-header i{/*estilizando icone*/
+footer i{/*estilizando icone*/
     color: white;/*cores do icone*/
     font-size: 40px;/*tamanho do icone*/
     background-color: #6f737e;/*cor de fundo do elemento*/
@@ -248,8 +248,8 @@ header i{/*estilizando icone*/
     border-radius: 10px;/*arredondamento da caixa*/
 }
 
-header i:hover{/*aplicando o efeito ao passar o mouse*/
-    background-color: #c1c0ae;/*cor de fundo alterada*/
+footer i:hover{/*aplicando o efeito ao passar o mouse*/
+    background-color: purple;/*cor de fundo alterada*/
     transition: 0.7s;/*transição do elemento*/
 }
 
@@ -270,11 +270,114 @@ background-size: cover;
     color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .section-tela2{
-    background-color:  #89a09a;
+    background-color:  darkslategrey;
     padding: 240px;
+}
+/*div pai- dentro dele existe 3 caixas*/
+.div-pai{
+    display: flex;/*tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center;/*justificando os itens ao centro*/
+    margin-bottom: 20px;
+    
+}
+/*estilização das caixas (div filho)*/
+.div-pai div{
+    width: 200px;/*largura da caixa*/
+    height: 280px;/*altura da caixa*/
+    margin-right: 20px;/*espaçamento entre as caixas
+    */
+    border-radius: 10px;/*arredondamento da borda*/
+  background-color: #6f737e;
+
+}
+
+.div-pai .divfilho-1{
+    background-image: url(img/download.jpg);/*para colocar a imagen de fundo*/
+    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
+    background-position: center;/*para deixa a div no centro*/
+    background-size: cover;/*para deixar a imagen prenchida*/
+}
+    .div-pai .divfilho-1:hover{
+        width: 210px;/*largura da caixa*/
+        height: 290px;/*altura da caixa*/
+        transition: 0.8s;/*transição */
+    }
+.div-pai .divfilho-2{
+    background-image: url(img/pokemon.jpg);/*para colocar a imagen de fundo*/
+    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
+    background-position: center;/*para deixa a div no centro*/
+    background-size: cover;/*para deixar a imagen prenchida*/
+}
+.div-pai .divfilho-2:hover{
+    width: 210px;/*largura da caixa*/
+    height: 290px;/*altura da caixa*/
+    transition: 0.8s;/*transição */
+}
+.div-pai .divfilho-3{
+    background-image: url(img/jogo.jpg);/*para colocar a imagen de fundo*/
+    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
+    background-position: center;/*para deixa a div no centro*/
+    background-size: cover;/*para deixar a imagen prenchida*/
+}
+
+.div-pai .divfilho-3:hover{
+    width: 210px;/*largura da caixa*/
+    height: 290px;/*altura da caixa*/
+    transition: 0.8s;/*transição */
+}
+.div-tiu{
+    display: flex;/*tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center;/*justificando os itens ao centro*/
+    margin-bottom: 20px; 
+
+}
+.div-tiu div{
+    width: 200px;/*largura da caixa*/
+    height: 280px;/*altura da caixa*/
+    margin-right: 20px;/*espaçamento entre as caixas
+    */
+    border-radius: 10px; /*arredondamento da borda*/
+
+}
+.div-tiu .divsubrinho-1{
+    background-image: url(img/mine.jpg);/*para colocar a imagen de fundo*/
+    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
+    background-position: center;/*para deixa a div no centro*/
+    background-size: cover;/*para deixar a imagen prenchida*/
+}
+.div-tiu .divsubrinho-1:hover{
+    width: 210px;/*largura da caixa*/
+    height: 290px;/*altura da caixa*/
+    transition: 0.8s;/*transição */
+    
+}
+.div-tiu .divsubrinho-2{
+    background-image: url(img/ghost.jpg);/*para colocar a imagen de fundo*/
+    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
+    background-position: center;/*para deixa a div no centro*/
+    background-size: cover;/*para deixar a imagen prenchida*/
+}
+.div-tiu .divsubrinho-2:hover{
+    width: 210px;/*largura da caixa*/
+    height: 290px;/*altura da caixa*/
+    transition: 0.8s;/*transição */
+}
+.div-tiu .divsubrinho-3{
+    background-image: url(img/sun.jpg);/*para colocar a imagen de fundo*/
+    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
+    background-position: center;/*para deixa a div no centro*/
+    background-size: cover;/*para deixar a imagen prenchida*/
+}
+.div-tiu .divsubrinho-3:hover{
+    width: 210px;/*largura da caixa*/
+    height: 290px;/*altura da caixa*/
+    transition: 0.8s;/*transição */
+    
 }
 .section-tela3{
     padding: 240px;
     background-color: #c1c0ae;
 }
+
