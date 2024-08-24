@@ -51,7 +51,8 @@ header nav ul li {
 
 /*aqui chamamos nossa ancora para estilização*/
 header nav ul li a {
-    text-decoration: none; /*decoração da ancora (subinhado) desabilitado*/
+    text-decoration: none;
+    /*decoração da ancora (subinhado) desabilitado*/
     color: black;
     /*cor da letra*/
 
@@ -59,9 +60,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    transition: 0.8s;/*tempo da tranzição*/
-    color: darkolivegreen;/*cor da letra*/
-    font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
+    transition: 0.8s;
+    /*tempo da tranzição*/
+    color: darkolivegreen;
+    /*cor da letra*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*fonte da letra*/
 
 }
 
@@ -93,17 +97,23 @@ header nav ul li a:hover {
     /*altura do botão*/
     background-color: rgba(255, 255, 255, 0.452);
     /*cor de fundo*/
-    border-radius: 12px; /*arredondamento da borda*/
+    border-radius: 12px;
+    /*arredondamento da borda*/
 
 }
 
 
 .section-1 button:hover {
-    background-color:rgba(90, 89, 89, 0.205); /*cor de fundo*/
-    transition: 0.8s; /*a tranzição para mudar a cor*/
-    color: white;/*cor*/
-    font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
-    cursor:pointer ;/*para deixar o mause com formato de mão*/
+    background-color: rgba(90, 89, 89, 0.205);
+    /*cor de fundo*/
+    transition: 0.8s;
+    /*a tranzição para mudar a cor*/
+    color: white;
+    /*cor*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*fonte da letra*/
+    cursor: pointer;
+    /*para deixar o mause com formato de mão*/
 }
 
 /* chamamos nossa segunda sessão para estilização*/
@@ -124,15 +134,18 @@ header nav ul li a:hover {
 .section-2 img {
     width: 300px;
     /*largura da imagem*/
-    height: auto;/*a tranzição para mudar a cor*/
+    height: auto;
+    /*a tranzição para mudar a cor*/
     /*altura da imagem*/
 
 }
 
 .section-2 img:hover {
-    width: 310px;/*largura da imagem*/
+    width: 310px;
+    /*largura da imagem*/
     transition: 0.8s;
-    cursor: pointer;/*para deixar o mause com formato de mão*/
+    cursor: pointer;
+    /*para deixar o mause com formato de mão*/
 }
 
 .section-2 h2 {
@@ -198,7 +211,7 @@ header nav ul li a:hover {
 footer {
     padding: 20px;
     /* tamanho preenchimento da sessão*/
-    background-color: #c1c0ae;
+    background-color: #92917f;
     /* cor de fundo da sessão*/
 }
 
@@ -234,150 +247,255 @@ footer nav ul li a {
 }
 
 footer nav ul li a:hover {
-    color: darkslategray;/*cor*/
-    transition: 0.8s;/*uma transição*/
-    font-family: Arial, Helvetica, sans-serif;/*fonte da letra*/
+    color: darkslategray;
+    /*cor*/
+    transition: 0.8s;
+    /*uma transição*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*fonte da letra*/
 }
 
 
-footer i{/*estilizando icone*/
-    color: white;/*cores do icone*/
-    font-size: 40px;/*tamanho do icone*/
-    background-color: #6f737e;/*cor de fundo do elemento*/
-    padding: 15px;/*respiro/preenchimento da cor de fundo*/
-    border-radius: 10px;/*arredondamento da caixa*/
+footer i {
+    /*estilizando icone*/
+    color: white;
+    /*cores do icone*/
+    font-size: 40px;
+    /*tamanho do icone*/
+    background-color: #6f737e;
+    /*cor de fundo do elemento*/
+    padding: 15px;
+    /*respiro/preenchimento da cor de fundo*/
+    border-radius: 10px;
+    /*arredondamento da caixa*/
 }
 
-footer i:hover{/*aplicando o efeito ao passar o mouse*/
-    background-color: purple;/*cor de fundo alterada*/
-    transition: 0.7s;/*transição do elemento*/
+footer i:hover {
+    /*aplicando o efeito ao passar o mouse*/
+    background-color: purple;
+    /*cor de fundo alterada*/
+    transition: 0.7s;
+    /*transição do elemento*/
 }
 
-.section-tela1{/*estilização tela 2*/
-background-image:url(img/game-over-6771162_640.jpg);
-padding: 250px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.section-tela1 {
+    /*estilização tela 2*/
+    background-image: url(img/game-over-6771162_640.jpg);
+    padding: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.section-tela1 p{
+
+.section-tela1 p {
     font-size: 20px;
     color: black;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
 }
-.section-tela1 span{
+
+.section-tela1 span {
     color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.section-tela2{
-    background: linear-gradient(180deg,black 8.33%, #ce7a4a 100%); /*deixa um degrad*/
+.section-tela2 {
+    background: linear-gradient(150deg, rgb(0, 0, 0) 30%, #bd3200 100%);
+    /*deixa um degrad*/
     padding: 240px;
 }
+
 /*div pai- dentro dele existe 3 caixas*/
-.div-pai{
-    display: flex;/*tornando os itens flex, deixando as caixas lado a lado*/
-    justify-content: center;/*justificando os itens ao centro*/
+.div-pai {
+    display: flex;
+    /*tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center;
+    /*justificando os itens ao centro*/
     margin-bottom: 20px;
-    
+
 }
+
 /*estilização das caixas (div filho)*/
-.div-pai div{
-    width: 200px;/*largura da caixa*/
-    height: 280px;/*altura da caixa*/
-    margin-right: 20px;/*espaçamento entre as caixas
+.div-pai div {
+    width: 200px;
+    /*largura da caixa*/
+    height: 280px;
+    /*altura da caixa*/
+    margin-right: 20px;
+    /*espaçamento entre as caixas
     */
-    border-radius: 10px;/*arredondamento da borda*/
-  background-color: #6f737e;
+    border-radius: 10px;
+    /*arredondamento da borda*/
+    background-color: #6f737e;
 
 }
 
-.div-pai .divfilho-1{
-    background-image: url(img/download.jpg);/*para colocar a imagen de fundo*/
-    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
-    background-position: center;/*para deixa a div no centro*/
-    background-size: cover;/*para deixar a imagen prenchida*/
-}
-    .div-pai .divfilho-1:hover{
-        width: 210px;/*largura da caixa*/
-        height: 290px;/*altura da caixa*/
-        transition: 0.8s;/*transição */
-    }
-.div-pai .divfilho-2{
-    background-image: url(img/pokemon.jpg);/*para colocar a imagen de fundo*/
-    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
-    background-position: center;/*para deixa a div no centro*/
-    background-size: cover;/*para deixar a imagen prenchida*/
-}
-.div-pai .divfilho-2:hover{
-    width: 210px;/*largura da caixa*/
-    height: 290px;/*altura da caixa*/
-    transition: 0.8s;/*transição */
-}
-.div-pai .divfilho-3{
-    background-image: url(img/jogo.jpg);/*para colocar a imagen de fundo*/
-    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
-    background-position: center;/*para deixa a div no centro*/
-    background-size: cover;/*para deixar a imagen prenchida*/
+.div-pai .divfilho-1 {
+    background-image: url(img/download.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
 }
 
-.div-pai .divfilho-3:hover{
-    width: 210px;/*largura da caixa*/
-    height: 290px;/*altura da caixa*/
-    transition: 0.8s;/*transição */
+.div-pai .divfilho-1:hover {
+    width: 210px;
+    /*largura da caixa*/
+    height: 290px;
+    /*altura da caixa*/
+    transition: 0.8s;
+    /*transição */
 }
-.div-tiu{
-    display: flex;/*tornando os itens flex, deixando as caixas lado a lado*/
-    justify-content: center;/*justificando os itens ao centro*/
-    margin-bottom: 20px; 
+
+.div-pai .divfilho-2 {
+    background-image: url(img/pokemon.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
+}
+
+.div-pai .divfilho-2:hover {
+    width: 210px;
+    /*largura da caixa*/
+    height: 290px;
+    /*altura da caixa*/
+    transition: 0.8s;
+    /*transição */
+}
+
+.div-pai .divfilho-3 {
+    background-image: url(img/jogo.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
+}
+
+.div-pai .divfilho-3:hover {
+    width: 210px;
+    /*largura da caixa*/
+    height: 290px;
+    /*altura da caixa*/
+    transition: 0.8s;
+    /*transição */
+}
+
+.div-tiu {
+    display: flex;
+    /*tornando os itens flex, deixando as caixas lado a lado*/
+    justify-content: center;
+    /*justificando os itens ao centro*/
+    margin-bottom: 20px;
 
 }
-.div-tiu div{
-    width: 200px;/*largura da caixa*/
-    height: 280px;/*altura da caixa*/
-    margin-right: 20px;/*espaçamento entre as caixas
+
+.div-tiu div {
+    width: 200px;
+    /*largura da caixa*/
+    height: 280px;
+    /*altura da caixa*/
+    margin-right: 20px;
+    /*espaçamento entre as caixas
     */
-    border-radius: 10px; /*arredondamento da borda*/
+    border-radius: 10px;
+    /*arredondamento da borda*/
 
 }
-.div-tiu .divsubrinho-1{
-    background-image: url(img/mine.jpg);/*para colocar a imagen de fundo*/
-    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
-    background-position: center;/*para deixa a div no centro*/
-    background-size: cover;/*para deixar a imagen prenchida*/
+
+.div-tiu .divsubrinho-1 {
+    background-image: url(img/mine.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
 }
-.div-tiu .divsubrinho-1:hover{
-    width: 210px;/*largura da caixa*/
-    height: 290px;/*altura da caixa*/
-    transition: 0.8s;/*transição */
-    
+
+.div-tiu .divsubrinho-1:hover {
+    width: 210px;
+    /*largura da caixa*/
+    height: 290px;
+    /*altura da caixa*/
+    transition: 0.8s;
+    /*transição */
+
 }
-.div-tiu .divsubrinho-2{
-    background-image: url(img/ghost.jpg);/*para colocar a imagen de fundo*/
-    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
-    background-position: center;/*para deixa a div no centro*/
-    background-size: cover;/*para deixar a imagen prenchida*/
+
+.div-tiu .divsubrinho-2 {
+    background-image: url(img/ghost.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
 }
-.div-tiu .divsubrinho-2:hover{
-    width: 210px;/*largura da caixa*/
-    height: 290px;/*altura da caixa*/
-    transition: 0.8s;/*transição */
+
+.div-tiu .divsubrinho-2:hover {
+    width: 210px;
+    /*largura da caixa*/
+    height: 290px;
+    /*altura da caixa*/
+    transition: 0.8s;
+    /*transição */
 }
-.div-tiu .divsubrinho-3{
-    background-image: url(img/sun.jpg);/*para colocar a imagen de fundo*/
-    background-repeat:no-repeat;/*para não ficar repetindo a imagen*/
-    background-position: center;/*para deixa a div no centro*/
-    background-size: cover;/*para deixar a imagen prenchida*/
+
+.div-tiu .divsubrinho-3 {
+    background-image: url(img/sun.jpg);
+    /*para colocar a imagen de fundo*/
+    background-repeat: no-repeat;
+    /*para não ficar repetindo a imagen*/
+    background-position: center;
+    /*para deixa a div no centro*/
+    background-size: cover;
+    /*para deixar a imagen prenchida*/
 }
-.div-tiu .divsubrinho-3:hover{
-    width: 210px;/*largura da caixa*/
-    height: 290px;/*altura da caixa*/
-    transition: 0.8s;/*transição */
-    
+
+.div-tiu .divsubrinho-3:hover {
+    width: 210px;
+    /*largura da caixa*/
+    height: 290px;
+    /*altura da caixa*/
+    transition: 0.8s;
+    /*transição */
+
 }
-.section-tela3{
+
+.section-tela3 {
     padding: 240px;
     background-color: #c1c0ae;
+    display: flex;
+    justify-content: space-evenly;
 }
 
+.div-titulo h2 {
+    color: black;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.div-titulo p {
+    color: black;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.div-mapa iframe{
+border-radius: 10px;
+margin-right: 30px;
+}
