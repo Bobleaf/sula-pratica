@@ -69,6 +69,10 @@ header nav ul li a:hover {
 
 }
 
+#street{/**/
+
+}
+
 /*primeira sessão para estilização*/
 .section-1 {
     background-image: url(img/menu.jpg);
@@ -511,4 +515,52 @@ margin-right: 30px;
 .div-line img{
     width: 100px;
 
+}
+
+.div-line .line{
+    width: 95px; /*largura da linha*/
+    height: 1.5px;/*altura da linha*/
+    margin-top: 12px;/*distancia entre a linha e icone*/
+    background-color: white;/*cor de fundo da linha*/
+}
+
+.div-icones a{
+    text-decoration: none;/*estamos removendo o etilo da ancora*/
+    color: white;/*cor da ancora*/
+}
+
+.div-icones a i { /*acessando o icone*/
+    background-color: #6f737e;/*atribuindo uma cor de fundo aos nossos icones*/
+    padding: 7px;/*aplicando um respiro (padin) dentro dos icones*/
+    font-size: 35px;/*tamanho dos icones*/
+    border-radius: 10px;
+}
+.div-icones i:hover{
+background-color: purple;
+transition: 0.7s;
+}
+.div-icones h2{
+color: white;/*cor da letra*/
+font-size: 30px;/*tamanho da letra*/
+margin-bottom: 20px;/*margin inferior em relação o texto*/
+}
+
+.div-icones2 a{
+    text-decoration: none;
+    color:white;
+}
+
+.div-icones2 a i{
+background-color: #6f737e;
+padding: 10px;
+font-size: 35px;
+border-radius: 10px;
+}
+.div-icones2 i:hover{
+    background-color: #6f737e8f;
+    transition: 0.7s;
+}
+
+html{
+    scroll-behavior: smooth;
 }
